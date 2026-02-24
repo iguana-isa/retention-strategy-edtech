@@ -1,2 +1,2 @@
-# retention-strategy-edtech
+# План повышения Retention EdTech платформы 
 Разработка стратегии повышения Retention Rate онлайн-платформы IT Resume на основе анализа активности пользователей (SQL, Metabase).
