@@ -3,7 +3,7 @@
 
 [Код запросов](activity-rate.sql)
 
-
+**Результат:** 
 ![Визуализация запроса:](%-activity-rate.png)
 
 
@@ -13,3 +13,4 @@
 
 
 >[Visualization](%-activity-rate.png)
+
