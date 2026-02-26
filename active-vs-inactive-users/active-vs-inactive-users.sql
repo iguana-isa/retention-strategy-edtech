@@ -5,7 +5,7 @@
 ========================================= */
 
 with activities as (
-        select user_id from coderun
+    select user_id from coderun
 	union
 	select user_id from codesubmit
 	union
