@@ -45,6 +45,18 @@
 ## Визуализация
 [Дашборд в Metabase](https://metabase.simulative.ru/public/dashboard/4a35b0e2-5869-4979-ac43-621f0bdce9fb#refresh=60)
 
+**Rolling Retention (D0/D1/D3/D7/D14/D30/D60/D90**) [SQL-запрос](rolling-retention/rolling-retention.sql)
+![Визуализация запроса:](rolling-retention/vis-rolling-retention.png)
+
+**Сравнение количества попыток отправки кода (D30 Rolling Retention) у удержавшихся и ушедших пользователей** [SQL-запрос](attempts-of-retained-vs-churned/attempts-of-retained-vs-churned.sql)
+![Визуализация запроса:](attempts-of-retained-vs-churned/vis-attempts-of-retained-vs-churned.png)
+
+**Распределение начислений и списаний внутренней валюты платформы CodeCoins** [SQL-запрос](codecoins-transactions/codecoins-transactions.sql)
+![Визуализация запроса:](codecoins-transactions/codecoins-transactions.png)
+
+**Воронка: регистрация -> вход -> активность -> успех -> покупка** [SQL-запрос](conversion-funnel/conversion-funnel.sql)
+![Визуализация запроса:](conversion-funnel/vis-funnel.png)
+
 ## Выводы
 1. **Главный драйвер Retention — ранний успешный опыт.**  
 Пользователи с успешными решениями удерживаются в 7–8 раз лучше. Без первого успеха пользователь почти всегда уходит.
